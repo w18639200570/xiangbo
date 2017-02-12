@@ -1,0 +1,19 @@
+body{margin:0;background:#68cdd5;}
+.jiantou{margin:2%;width:20%;height:20%;}
+.logo{display:block;margin:5% auto 0;}
+p{margin:15% 10% 15%;
+    font-family:"Microsoft YaHei";
+    font-size:5vw;
+    letter-spacing:.1rem;
+    line-height:1.5em;
+    color:white;
+    }
+img {width: 50%;height:50%;}
+.tu{text-align:center;
+    margin-bottom:50%;
+    font-family:"Microsoft YaHei";
+    font-size:4vw;
+    color:white;
+    }
+.lan{display:block;float:left;width:50%;}
+.lv{display:block;float:left;width:50%;}
