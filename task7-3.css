@@ -46,12 +46,16 @@ p{
     color:white;
 }
 .occupation{
+    margin:5px 0;
     font-size:1.6rem;
     color:white;
+    overflow:hidden;
 }
 .vocabulary{
+    margin-bottom:20px;
     font-size:1.6rem;
     color:white;
+    overflow:hidden;
 }
 .content{
     width:100%;
@@ -93,7 +97,11 @@ button{
 }
 .again{
     background:#f66f6f;
+    overflow:hidden;
+    white-space: nowrap;
 }
 .push{
     background:#fbb435;
+    overflow:hidden;
+    white-space: nowrap;
 }
