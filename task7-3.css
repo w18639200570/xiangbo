@@ -1,0 +1,99 @@
+body{
+    background:#29bde0;
+}
+p{
+    margin:0;
+}
+.header{
+    text-align:center;
+    border-bottom:1px solid white;
+}
+.home{
+    position:absolute;
+    top:10px;
+    left:20px;
+}
+.explain{
+    position:absolute;
+    top:10px;
+    right:20px;
+}
+.result{
+    margin:0;
+    font-size:2.5rem;
+    padding:20px 0 15px;
+    color:white;
+}
+.maintop{
+    margin-top:20px;
+    width:100%;
+}
+.victory{
+    display:block;
+    margin:0 auto;
+    max-width:100%;
+}
+.container{
+    padding:0 10%;
+}
+.illustrate{
+    margin:20px 0 40px;
+    font-size:2rem;
+    color:#ffc865;
+}
+.time{
+    font-size:1.6rem;
+    color:white;
+}
+.occupation{
+    font-size:1.6rem;
+    color:white;
+}
+.vocabulary{
+    font-size:1.6rem;
+    color:white;
+}
+.content{
+    width:100%;
+    background:white;
+    border-top:1px solid #999;
+}
+.day{
+    margin-top:1rem;
+    font-size:2rem;
+}
+.times{
+    padding-top:2rem;
+    font-size:1rem;
+    color:#c7c7c7;
+}
+.event{
+    margin:20px 0;
+    line-height:2.3rem;
+    font-size:1.6rem;
+    color:#a6a6a6;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background:rgba(41,189,224,.5);
+    text-align:center;
+}
+footer .container{
+    padding:0;
+}
+button{
+    margin:20px 0;
+    width:100%;
+    font-size:3rem;
+    color:white;
+    border-radius:10px;
+    border:none;
+}
+.again{
+    background:#f66f6f;
+}
+.push{
+    background:#fbb435;
+}

@@ -1,8 +1,8 @@
-
 body{
     margin:0;
     font-family:"Microsoft YaHei";
     background:#29bde0;
+
 }
 header{
     position:absolute;
@@ -93,11 +93,10 @@ u{
     font-size:1.7rem;
     color:white;
 }
-.container{
+.container-fluid{
     margin-top:200px;
     margin-bottom:100px;
     text-align:center;
-    overflow:auto;
 }
 .block{
     margin:0 auto;
@@ -135,33 +134,37 @@ footer{
 .col-xs-4{
     height:175px;
 }
-.box:hover{
-    height:150px;
-}
-.box{
-    height:105px;
-    overflow:hidden;
+.box:hover span{
+    opacity:1;
 }
 span{
     margin:20px 0;
+    padding:10% 0;
     display:inline-block;
-    width:30px;
-    height:32px;
-    background-image:url(images/sprite.png);
-
+    width:20%;
+    max-width:30px;
+    background:url(images/spr.png) no-repeat;
+    background-size:400%;
+    opacity:0
 }
-.b1{
-    background-position:-216px 0;
-}
-
-.b2 {
-    background-position: -188px 0;
-}
-.b3{
-    background-position:-127px 0;
+.killer{
+    background-position:100% 0;
 }
 
-.b4{
-    background-position:-158px 0;
+.search {
+    background-position: 67% 0;
 }
+.aim{
+    background-position:0 0;
+}
+.salvation{
+    background-position:33% 0;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+
 

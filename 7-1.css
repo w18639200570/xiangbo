@@ -12,16 +12,25 @@ main .row{margin-top:15px;}
 .name{padding:10px 0;color:#fbb435;}
 .content .col-xs-12{border-bottom:1px solid #fbb435;}
 .type1{margin:15px 0;padding:20px 0;color:white;background:#69d1e9;}
-.synopsis{font-size:1.5rem;color:#787878}
+.synopsis{font-size:1.5rem;color:#787878;text-overflow :ellipsis;overflow:hidden;white-space: nowrap;}
 .col-xs-4{margin-top:-15px;}
-.origin{display:inline-block;width:10px;height:10px;border-radius:50%;background:#69d1e9;}
 .origins{display:inline-block;width:10px;height:10px;border-radius:50%;background:#f0f0f0;}
+.origins:hover{
+    background:#69d1e9;
+}
 .triangle
 {
-    position:fixed;
-    top:375px;
-    right:6%;
+    width:50px;
     border-top:20px solid transparent;
     border-left:15px solid #fbb435;
     border-bottom:20px solid transparent;
+}
+.next{
+    float:right;
+    margin-top:-227px;
+    border-top:20px solid transparent;
+    border-left:15px solid #fbb435;
+    border-bottom:20px solid transparent;
+    background:none;
+    outline:none;
 }
