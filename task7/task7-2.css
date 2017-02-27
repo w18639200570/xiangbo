@@ -1,20 +1,29 @@
+html{
+    position:relative;
+    max-width:680px;
+    min-width:300px;
+    margin:0 auto;
+}
 body{
-    margin:0;
+    margin:0 auto;
     font-family:"Microsoft YaHei";
-    background:#29bde0;
-
+    max-width:680px;
+    width:100%;
 }
 header{
     position:absolute;
     margin:0;
     width:100%;
     top:0;
+    max-width:680px;
+    background:#29bde0;
 }
 .vote{
     margin:20px 0 15px;
     font-size:2.5rem;
     text-align:center;
     color:white;
+    max-width:680px;
 }
 em{
     display:block;
@@ -87,16 +96,19 @@ u{
     top:67px;
     left:40px;
 }
-.max{position:absolute;
-    top:150px;
-    padding-left:45px;
+.max{
+    margin-top:130px;
+    padding:20px 0 30px 45px;
     font-size:1.7rem;
     color:white;
+    background:#29bde0;
 }
+
 .container-fluid{
-    margin-top:200px;
+    margin-top:-20px;
     margin-bottom:100px;
     text-align:center;
+    background:#29bde0;
 }
 .block{
     margin:0 auto;
@@ -120,6 +132,7 @@ footer{
     width:100%;
     height:100px;
     background:#29bde0;
+    max-width:680px;
 }
 .death{
     display:block;
