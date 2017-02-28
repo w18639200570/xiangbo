@@ -104,9 +104,9 @@ footer .container{
 button{
     margin:20px 0;
     width:100%;
-    font-size:3rem;
+    font-size:3vh;
     color:white;
-    border-radius:10px;
+    border-radius:8px;
     border:none;
 }
 .again{

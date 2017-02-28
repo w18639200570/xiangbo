@@ -39,17 +39,12 @@ em{
     left:20px;
     top:15px;
 }
-b{
-    display:block;
+
+.clos{
     position:absolute;
-    width:36px;
-    height:36px;
-    background-image:url(images/sprite.png);
-}
-.close{
-    background-position:-91px 0;
-    right:20px;
     top:15px;
+    right:15px;
+    opacity:1;
 }
 main{
     position:absolute;
@@ -66,16 +61,11 @@ i{
     width:52px;
     height:52px;
     background-image:url(images/sprite.png);
-}
-.player{
-    width:55px;
-    height:55px;
-    border-radius:50%;
-    border:none;
-    opacity:0;
+    overflow:hidden;
 }
 audio{
-    width:30px;
+    margin:10px 0 0 10px;
+    opacity:0;
 }
 .a3{
     right:14px;
